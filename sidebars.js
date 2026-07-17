@@ -5,27 +5,17 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting started',
-      items: ['getting-started/overview', 'getting-started/navigation', 'getting-started/contributing']
-    },
-    {
-      type: 'category',
-      label: 'Learning delivery',
-      items: ['learning/courses', 'learning/labs', 'learning/assessments']
+      items: ['getting-started/overview', 'getting-started/contributing']
     },
     {
       type: 'category',
       label: 'Platform operations',
-      items: ['operations/architecture', 'operations/identity-access', 'operations/publishing']
-    },
-    {
-      type: 'category',
-      label: 'Standards and governance',
-      items: ['governance/documentation-standard', 'governance/security', 'governance/accessibility']
+      items: ['operations/architecture', 'operations/publishing']
     },
     {
       type: 'category',
       label: 'Reference',
-      items: ['reference/module-directory', 'reference/support']
+      items: ['reference/module-directory']
     }
   ]
 };
