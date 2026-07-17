@@ -1,7 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
-const academyLogoLight = 'https://raw.githubusercontent.com/skunkworks-academy/.github/refs/heads/main/images/favicon-black.png';
-const academyLogoDark = 'https://raw.githubusercontent.com/skunkworks-academy/.github/refs/heads/main/images/favicon-white.png';
+const academyLogoLight = 'https://raw.githubusercontent.com/skunkworks-academy/www/refs/heads/main/images/favicon-black.png';
+const academyLogoDark = 'https://raw.githubusercontent.com/skunkworks-academy/www/refs/heads/main/images/favicon-white.png';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
