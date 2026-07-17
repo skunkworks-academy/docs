@@ -1,0 +1,7 @@
+Canonical Academy navbar icon sources:
+
+Light interface / dark icon:
+https://raw.githubusercontent.com/skunkworks-academy/.github/refs/heads/main/images/favicon-black.png
+
+Dark interface / light icon:
+https://raw.githubusercontent.com/skunkworks-academy/.github/refs/heads/main/images/favicon-white.png
