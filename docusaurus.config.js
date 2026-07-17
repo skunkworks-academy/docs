@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Skunkworks Academy Docs',
   tagline: 'Technical, operational, learning, and publishing documentation for Skunkworks Academy.',
-  favicon: 'img/favicon-black.png',
+  favicon: 'img/favicon-black.svg',
   url: 'https://docs.skunkworksacademy.com',
   baseUrl: '/',
   organizationName: 'skunkworks-academy',
@@ -42,14 +42,13 @@ const config = {
     ]
   ],
   themeConfig: {
-    image: 'img/social-card.png',
     colorMode: {defaultMode: 'dark', respectPrefersColorScheme: true},
     navbar: {
       title: 'Skunkworks Academy',
       logo: {
         alt: 'Skunkworks Academy',
-        src: 'img/favicon-black.png',
-        srcDark: 'img/favicon-white.png'
+        src: 'img/favicon-black.svg',
+        srcDark: 'img/favicon-white.svg'
       },
       items: [
         {href: 'https://skunkworksacademy.com/', label: 'Home', position: 'left'},
