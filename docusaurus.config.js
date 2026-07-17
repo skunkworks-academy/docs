@@ -1,10 +1,13 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const academyLogoLight = 'https://raw.githubusercontent.com/skunkworks-academy/.github/refs/heads/main/images/favicon-black.png';
+const academyLogoDark = 'https://raw.githubusercontent.com/skunkworks-academy/.github/refs/heads/main/images/favicon-white.png';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Skunkworks Academy Docs',
   tagline: 'Technical, operational, learning, and publishing documentation for Skunkworks Academy.',
-  favicon: 'img/favicon-black.svg',
+  favicon: academyLogoLight,
   url: 'https://docs.skunkworksacademy.com',
   baseUrl: '/',
   organizationName: 'skunkworks-academy',
@@ -47,8 +50,10 @@ const config = {
       title: 'Skunkworks Academy',
       logo: {
         alt: 'Skunkworks Academy',
-        src: 'img/favicon-black.svg',
-        srcDark: 'img/favicon-white.svg'
+        src: academyLogoLight,
+        srcDark: academyLogoDark,
+        href: 'https://skunkworksacademy.com/',
+        target: '_self'
       },
       items: [
         {href: 'https://skunkworksacademy.com/', label: 'Home', position: 'left'},
