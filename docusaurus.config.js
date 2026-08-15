@@ -15,6 +15,12 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  scripts: [
+    {
+      src: 'https://skunkworksacademy.com/assets/academy-navigation.js?v=2026.08.15.2',
+      defer: true,
+    },
+  ],
   i18n: {defaultLocale: 'en', locales: ['en']},
   themes: [
     [
