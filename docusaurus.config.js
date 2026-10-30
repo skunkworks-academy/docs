@@ -7,7 +7,7 @@ const academyLogoDark = 'https://raw.githubusercontent.com/skunkworks-academy/ww
 const config = {
   title: 'Skunkworks Academy Docs',
   tagline: 'Technical, operational, learning, and publishing documentation for Skunkworks Academy.',
-  favicon: academyLogoLight,
+  favicon: 'images/favicon-search.png',
   url: 'https://docs.skunkworksacademy.com',
   baseUrl: '/',
   organizationName: 'skunkworks-academy',
